@@ -3,13 +3,7 @@
   "name": "trivia",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://Mohanraj.Me.github.io/react-gh-pages",
-    "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    }
+
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
